@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <p>This is a simple HTML document.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <del>Asperiores</del> blanditiis quod<mark> voluptas,</mark> eum veniam quia expedita minima <i>Aliquam</i>  earum in impedit qui <sub>gg</sub><sup>bros</sup> busdam quod unde soluta necessitates null velit eaque.</p>
+
+        <p>Here is a link to <a href="https://www.example.com">Example</a>.</p>
+        <p>Here is an image:</p>
+        <audio src="audio.mp3" controls="controls"></audio>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        <p>Here is a list:</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p>Here is a table:</p>
+        <table border="1">
+            <caption>Table Caption</caption>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+        </table>
+        <p>Here is a form:</p>
+        <form action="https://www.example.com" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <input type="button" value="Click Me" onclick="alert('Button clicked!')">
+            <input type="submit" value="Open Google" formaction="https://www.google.com" target="_blank" style="width: 100px; height: 50px; background-color: rgba(138, 178, 73, 0.668);">
+            <br>
+            <label for="link">Link:</label>
+            <input type="text" id="link" name="link" placeholder="Enter a link">
+            <input type="submit" value="Go to Link" formaction="" onclick="window.open(document.getElementById('link').value, '_blank'); return false;" style="width: 50px; height: 50px; background-color: rgba(138, 178, 73, 0.668);">   
+            <br>
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file">
+            <input type="submit" value="Upload File" formaction="https://www.example.com/upload" target="_blank" style="width: 50px; height: 50px; background-color: rgba(138, 178, 73, 0.668);">
+            <br>
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color" value="#ff0000">
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <br>
+            <label for="number">Number:</label>
+            <input type="number" id="number" name="number" min="1" max="10" step="1" value="5">
+            <br>
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" min="0" max="100" step="1" value="50">
+            <br>
+            <label for="checkbox">Checkbox:</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <br>
+            <label for="radio">Radio:</label>
+            <input type="radio" id="radio1" name="radio" value="option1">
+            <br>
+            <label for="radio1">Option 1</label>
+            <input type="radio" id="radio2" name="radio" value="option2">
+            <br>
+            <label for="radio2">Option 2</label>
+            <br>
+            <label for="select">Select:</label>
+            <select id="select" name="select">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+            <label for="textarea">Textarea:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Enter your text here..."></textarea>
+            <input type="submit" value="Submit Form" style="width: 50px; height: 50px; background-color: rgba(138, 178, 73, 0.668);">
+            <input type="reset" value="Reset Form" style="width: 50px; height: 50px ;background-color: rgba(138, 178, 73, 0.668);">
+        </form>
+        <p>Here is a button:</p>
+        <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+        <p>Here is a button that opens a new tab:</p>
+        <form action="https://www.google.com" target="_blank">
+            <input type="submit" value="Open Google" style="width: 50px; height: 50px; background-color: rgba(138, 178, 73, 0.668);">
+        </form>
+        <p>Here is a button with a link:</p>
+        <button type="submit" terget="_blank" style="width: 50px; height: 50px; background-color: rgba(138, 178, 73, 0.668);"> <a href="https://www.google.com"> Click Me</a></button>
+        <script src="script.js"></script>
+    </body>
+</html>
