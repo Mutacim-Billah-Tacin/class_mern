@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c0404;
+    height: 140px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff8f8f;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #392323;
+    flex-grow: 1;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8f8f;
+    height: 400px;
+}
+
+section div:first-child {
+    height: 380px;
+    background-color: #392323;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+section div:last-child {
+    height: 380px;
+    background-color: #392323;
+    margin: 10px;
+    width: 270px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3ff8f;
+    height: 400px;
+}
+
+article div {
+    height: 380px;
+    background-color: #392323;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #04079c;
+    height: 250px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.footed {
+    background-color: #fff;
+    margin: 10px;
+    height: 230px;
+    width: 200px;
+}
+
+.footed2 {
+    background-color: #ff8f8f;
+    margin: 10px 10px 10px 0px;
+    height: 230px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #0fd3d3;
+    border: #348011 2px dotted;
+    height: 200px;
+    flex-grow: 1;
+    margin: 30px;
+}
