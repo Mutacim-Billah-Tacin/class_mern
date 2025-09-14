@@ -1,0 +1,139 @@
+/* a {
+    color: greenyellow;
+}
+
+div>a {
+    color: rgb(72, 116, 133);
+} */
+
+/* -----^Direct Child^----- */
+
+/* div a {
+  color: blueviolet;
+} */
+
+/* -----^Any Descendant^----- */
+
+/* .ad ~ p {
+  color: brown;
+} */
+
+/* -----^Any Following Sibling^----- */
+
+/* .ad + p {
+  color: brown;
+}
+
+.ab {
+  color: greenyellow;
+}
+
+.ab:hover + p {
+  color: brown;
+} */
+
+/* -----^Direct Following Sibling^----- */
+
+/* p,
+a,
+span {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+} */
+
+/* -----^Joining Selectors^----- */
+
+/* [href] {
+  color: rgb(59, 59, 81);
+} */
+
+/* -----^by Attribute^----- */
+
+/* [data-item="product-new"] {
+  color: orange;
+} */
+
+/* -----^by Attribute Value^----- */
+
+/* [data-item="product" i] {
+  color: green;
+}
+
+[data-item="product-new"] {
+  color: orange;
+} */
+
+/* -----^by Attribute Value Case Sensitive^----- */
+
+/* [href*="social"] {
+  color: green;
+} */
+
+/* -----^by Partial Attribute Value^----- */
+
+/* a[class|="important"] {
+  color: purple;
+} */
+
+/* -----^by Attribute Value Ignoring Minus Suffix^----- */
+
+/* a[class^="data"] {
+  color: purple;
+} */
+
+/* -----^by Attribute Value Starting With^----- */
+
+/* a[class$="data"] {
+  color: purple;
+} */
+
+/* -----^by Attribute Value Ending With^----- */
+
+/* a[class~="data"] {
+  color: purple;
+} */
+
+/* -----^by Attribute Containing Word^----- */
+
+/* a:not(.ignore) {
+  color: red;
+} */
+
+/* -----^Reversing Matchers Using Not^----- */
+
+/* .products > a:nth-last-child(2) {
+  color: red;
+} */
+
+/* -----^Nth Last Child^----- */
+
+/* .products > a:first-of-type {
+  color: red;
+} */
+
+/* -----^First Of Type^----- */
+
+/* .products > a:nth-of-type(2) {
+  color: red;
+} */
+
+/* -----^Nth Of Type^----- */
+
+/* .products > a:only-of-type {
+  color: red;
+} */
+
+/* -----^Only Of Type^----- */
+
+/* div:has(> .product) {
+  color: rgb(45, 32, 32);
+} */
+
+/* -----^Has Descendant^----- */
+
+article :is(div, span).product:not(.foo) {
+  color: teal;
+}
+
+/* -----^Is Matcher^----- */

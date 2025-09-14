@@ -1,12 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div>
+      <p>
+        Follow us on <a href="https://x.com/@scrapfly_dev">X!</a>
+        <skip>ignore</skip>
+      </p>
+      <a href="https://x.com/@scrapfly_dev">gg_bravo</a>
+      <a href="https://x.com/@scrapfly_dev">gg_bravo</a>
+      <a href="https://x.com/@scrapfly_dev">gg_bravo</a>
+      <a href="https://x.com/@scrapfly_dev">gg_bravo</a>
+      <a href="https://x.com/@scrapfly_dev">gg_bravo</a>
+    </div> -->
+
+    <!-- ^Direct Child^ -->
+
+    <!-- <div>
+      <p>
+        Follow us on <a href="https://x.com/@scrapfly_dev">X!</a>
+        <skip>ignore</skip>
+      </p>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div><a href="gg" target="_blank">ggf</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 2-->
+
+    <!-- ^Any Descendant^ -->
+
+    <!-- <article>
+      <p>ignore</p>
+      <p>ignore</p>
+      <p>ignore</p>
+      <p>ignore</p>
+      <p>ignore</p>
+      <p class="ad">ignore....</p>
+      <p>select</p>
+      <p>select</p>
+      <p>select</p>
+      <p>select</p>
+      <p>select</p>
+    </article> -->
+
+    <!-- ^Any Following Sibling^ -->
+
+    <!-- <article>
+      <p>ignore</p>
+      <p class="ad">ignore</p>
+      <p>select</p>
+      <p>ignore</p>
+      <p>ignore</p>
+      <p class="ab">ignore....</p>
+      <p>select</p>
+      <p>select</p>
+      <p>select</p>
+    </article> -->
+
+    <!-- ^Direct Following Sibling^ -->
+
+    <!-- <div>
+      <article>
+        <p>select paragraph</p>
+        <div>
+          <div>ignore</div>
+          <p>select nested paragraph</p>
+        </div>
+        <span>select span</span> <a>select link</a>
+        <div>ignore</div>
+      </article>
+    </div> -->
+
+    <!-- ^Joining Selectors^ -->
+
+    <!-- <div>
+      <a href="#">enabled link</a> <a>disabled link</a>
+      <a href="">enabled link</a>
+    </div> -->
+
+    <!-- ^by Attribute^ -->
+
+    <!-- <div>
+      <span data-item="product">select</span>
+      <div data-item="product">select</div>
+      <span data-item="product-new">ignore</span>
+    </div> -->
+
+    <!-- ^by Attribute Value^ -->
+
+    <!-- <div>
+      <span data-item="PRODUCT">select</span>
+      <div data-item="Product">select</div>
+      <div data-item="product">select</div>
+      <span data-item="product-new">ignore</span>
+    </div> -->
+
+    <!-- ^by Case Insensitive Attribute Value^ -->
+
+    <!-- <div>
+      <a href="social-link.com">select</a>
+      <a href="social-liNk2.com">select</a>
+      <a href="ignore">ignore</a>
+    </div> -->
+
+    <!-- ^by Partial Attribute Value^ -->
+
+    <!-- <div>
+      <a class="important-link">select</a>
+      <a class="important-url">select</a>
+      <a class="important">select</a>
+      <a class="foo important-item">doesn't begin exactly</a>
+      <a class="important item">contains more than just match</a>
+      <a class="importantitem">doesn't match</a>
+    </div> -->
+
+    <!-- ^by Attribute Value Ignoring Minus Suffix^ -->
+
+    <!-- <div>
+      <a class="dataname">select</a>
+      <a class="data-age">select</a>
+      <a class="data extra">select</a>
+      <a class="foo data">ignore</a>
+    </div> -->
+
+    <!-- ^by Attribute Value Starting With^ -->
+
+    <!-- <div>
+      <a class="name-data">select</a>
+      <a class="age data">select</a>
+      <a class="data">select</a>
+      <a class="data foo">ignore</a>
+    </div> -->
+
+    <!-- ^by Attribute Value Ending With^ -->
+
+    <!-- <div>
+      <a class="data">select</a>
+      <a class="foo data">select</a>
+      <a class="foo data bar">select</a>
+      <a class="datafoo">ignore</a>
+      <a class="data-bar">ignore</a>
+    </div> -->
+
+    <!-- ^by Attribute Containing Word^ -->
+
+    <!-- <div>
+      <a class="foo">select</a>
+      <a class="ignore">ignore</a>
+      <a class="bar">select</a>
+      <a class="data">select</a>
+      <a class="ignore">ignore</a>
+    </div> -->
+
+    <!-- ^Reversing Matchers Using Not^ -->
+
+    <!-- <div>
+      <div class="products">
+        <a>ignore</a>
+        <a>ignore</a>
+        <a>select</a>
+        <a>ignore</a>
+      </div>
+      <div class="products">
+        <div>ignore</div>
+        <a>ignore</a>
+        <a>select</a>
+        <a>ignore</a>
+      </div>
+      <a>ignore</a>
+    </div> -->
+
+    <!-- ^Nth Last Child^ -->
+
+    <!-- <div>
+      <div class="products">
+        <a>select</a>
+        <a>ignore</a>
+      </div>
+      <div class="products">
+        <div>ignore</div>
+        <a>select</a>
+        <a>ignore</a>
+      </div>
+      <a>ignore</a>
+    </div> -->
+
+    <!-- ^First Of Type^ -->
+
+    <!-- <div>
+      <div class="products"><a>ignore</a> <a>select</a> <a>ignore</a></div>
+      <div class="products">
+        <div>ignore</div>
+        <a>ignore</a> <a>select</a> <a>ignore</a>
+      </div>
+      <a>ignore</a>
+    </div> -->
+
+    <!-- ^Nth Of Type^ -->
+
+    <!-- <div>
+      <div class="products">
+        <a>ignore</a>
+        <a>ignore</a>
+        <a>ignore</a>
+      </div>
+      <div class="products">
+        <span>ignore</span> <a>select</a> <span>ignore</span>
+      </div>
+      <a>ignore</a>
+    </div> -->
+
+    <!-- ^Only Of Type^ -->
+
+    <!-- <article>
+      <div>
+        <a class="product">select</a>
+        <a>select</a>
+      </div>
+      <div>
+        <div class="wrapper">
+          <a class="product">select</a>
+          <a>select</a>
+        </div>
+      </div>
+      <div>
+        <a class="advertisement">ignore</a>
+        <div>ignore</div>
+      </div>
+    </article> -->
+
+    <!-- ^Has Descendant^ -->
+
+    <article>
+      <div class="product">select</div>
+      <span class="product foo">select</span>
+      <p class="product">ignore</p>
+    </article>
+
+    <!-- ^Is Matcher^ -->
+  </body>
 </html>
