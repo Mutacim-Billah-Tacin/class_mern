@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #817382;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+/* font */
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.oxanium {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.extralight {
+  font-weight: 200;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
+/* all */
+
+body {
+  background: #fff7e7;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 247, 231, 1) 0%,
+    rgba(255, 241, 220, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 247, 231, 1) 0%,
+    rgba(255, 241, 220, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 247, 231, 1) 0%,
+    rgba(255, 241, 220, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFF7E7", endColorstr="#FFF1DC", GradientType=1);
+}
+
+/* header */
+
+header {
+  background: #ffffff;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+}
+
+.header_main {
+  padding: 15px 0px;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.list_items {
+  gap: 25px;
+  margin-right: 45px;
+  justify-content: flex-end;
+  /* background-color: black; */
+}
+
+nav {
+  flex-grow: 1;
+}
+
+.search {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #ffedc9;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .search svg { */
+/*   fill: #ffaf0f; */
+/* } */
+
+.contact_us_btn {
+  font-size: 20px;
+  color: #f25a19;
+  padding: 12px 20px 12px 20px;
+  background-color: #f8ded3;
+  border-radius: 6px;
+}
+
+.header_button {
+  gap: 9px;
+}
+
+/* banner */
+
+.banner_content {
+  align-self: center;
+}
+
+.banner_content h1 {
+  font-size: 49px;
+  color: #261134;
+}
+
+#banner {
+  padding: 108px 0px;
+}
+
+.banner_content p {
+  color: #4d4d4d;
+  font-size: 20px;
+  margin: 16px 0px 41px 0px;
+  width: 330px;
+}
+
+.banner_content a {
+  background-color: #f95c19;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+.banner_content a i {
+  margin-left: 10px;
+}
